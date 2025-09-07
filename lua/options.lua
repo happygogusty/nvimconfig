@@ -4,6 +4,8 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 vim.opt.wrap = false
+vim.opt.linebreak = true
+
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
@@ -23,9 +25,13 @@ vim.opt.ignorecase = true
 
 vim.opt.termguicolors = true
 
-vim.g.mapleader = " "
-
-vim.g.maplocalleader = " "
-
 vim.opt.compatible = false
 
+
+vim.cmd('syntax enable')
+
+vim.opt.conceallevel = 2
+
+vim.opt.concealcursor = ""
+
+vim.cmd [[ highlight Conceal guifg=#c0caf5 ]]

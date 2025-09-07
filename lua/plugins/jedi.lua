@@ -1,0 +1,4 @@
+return {
+    'davidhalter/jedi-vim'
+}
+
