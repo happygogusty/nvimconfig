@@ -6,6 +6,8 @@ vim.opt.splitright = true
 vim.opt.wrap = false
 vim.opt.linebreak = true
 
+vim.opt.spelllang = 'en_us'
+vim.opt.spell = true
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
